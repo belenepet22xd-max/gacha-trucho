@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Fredoka', 'M PLUS Rounded 1c', system-ui, -apple-system, sans-serif;
+  background-color: #FFE4F3;
+  color: #4A4A4A;
+  overflow-x: hidden;
+}
+
+.vibrant-dot-pattern {
+  background-image: radial-gradient(#FF8CC6 2px, transparent 2px);
+  background-size: 30px 30px;
+}
+
+/* Custom cute anime scrollbars matching Vibrant Palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFEBF5;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF5DA8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7267CB;
+}

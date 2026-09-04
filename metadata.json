@@ -1,0 +1,6 @@
+{
+  "name": "Gacha Studio - Anime Character Creator & Studio",
+  "description": "Create custom anime characters, pose them in comic Studio scenes with backdrops and speech bubbles, and pull rare items in Gacha Pulls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
